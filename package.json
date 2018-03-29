@@ -1,0 +1,22 @@
+{
+  "name": "offline-demo",
+  "version": "0.0.1",
+  "description": "Offline-Demo",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "moment": "^2.21.0"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "devDependencies": {
+    "webpack": "^3.11.0",
+    "html-webpack-plugin": "^2.30.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "workbox-webpack-plugin": "^3.0.1",
+    "copy-webpack-plugin": "^4.5.1"
+  }
+}

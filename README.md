@@ -1,1 +1,1 @@
-# offline-first-sw
+Simple demo for Offline First using Service Worker
