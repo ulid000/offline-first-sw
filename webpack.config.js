@@ -24,6 +24,7 @@ module.exports = {
       toType: 'file'
     }]),
     new workboxPlugin.GenerateSW({
+      importWorkboxFrom: 'local',
       swDest: 'sw.js',
       clientsClaim: true,
       skipWaiting: true,

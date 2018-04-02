@@ -5,6 +5,9 @@ function init() {
   let title = document.createElement('h1');
   title.textContent = 'Offline Demo';
   document.body.appendChild(title);
+  let p = document.createElement('p');
+  p.textContent = "Service Worker with Google Workbox - staleWhileRevalidate";
+  document.body.appendChild(p);
   let messageDisplay = document.createElement('div');
   messageDisplay.id = 'messageDisplay'
   document.body.appendChild(messageDisplay);
